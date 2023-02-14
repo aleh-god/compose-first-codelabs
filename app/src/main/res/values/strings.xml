@@ -4,6 +4,8 @@
     <string name="blank">Строки все так же необходимо определять в xml файлах</string>
 
     <string name="hello_template">"Hello %1$s!"</string>
+    <string name="button_text_ok">OK</string>
+    <string name="ui_notification_main_text">Notification is unavailable</string>
 
     <plurals name="jetpack">
         <item quantity="one">%1$d Jetpack</item>
