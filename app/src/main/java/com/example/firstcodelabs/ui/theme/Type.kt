@@ -6,7 +6,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-// Set of Material typography styles to start with
+// Типографику из material theme можно настроить несколькими способами:
+// Первый способ - создать новый инстанс Typography из пакета material
 val Typography = Typography(
     body1 = TextStyle(
         fontFamily = FontFamily.Default,
@@ -26,3 +27,22 @@ val Typography = Typography(
     )
     */
 )
+
+// TODO("3.5 Второй способ настроить Типографику - создать расширение.")
+// Стили текста в Typography из пакета material так же, как и цвета ограничены.
+// И если вам нужен совершенно новый стиль, то без расширения не обойтись.
+val Typography.newStyle: TextStyle
+    get() = TextStyle(
+        fontFamily = FontFamily.SansSerif,
+        fontWeight = FontWeight.Bold,
+        fontSize = 16.sp
+    )
+
+// TODO("3.8 Собственный шрифт можно использовать в наших стилях типографики.")
+val Typography.myStyle: TextStyle
+    get() = TextStyle(
+        fontFamily = NewFont,
+        fontWeight = FontWeight.Bold,
+        fontSize = 16.sp
+    )
+

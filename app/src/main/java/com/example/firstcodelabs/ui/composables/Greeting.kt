@@ -4,6 +4,7 @@ import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -16,6 +17,7 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import com.example.firstcodelabs.R
 import com.example.firstcodelabs.ui.preview.HelloPreviewParameterProvider
 import com.example.firstcodelabs.ui.theme.FirstCodelabsTheme
+import com.example.firstcodelabs.ui.theme.newStyle
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
@@ -36,7 +38,12 @@ fun Greeting(
 
         Text(
             // TODO("2.3 Для загрузки текста надо вызывать метод stringResource. "Hello $name!" ")
-            text = stringResource(id = R.string.hello_template, name)
+            text = stringResource(id = R.string.hello_template, name),
+            // TODO("3.4 Цвета из темы можно получить вызвав свойство colors у используемой темы")
+            // (в нашем случае MaterialTheme) и необходимый цвет (в этом примере это primary)
+            color = MaterialTheme.colors.primary,
+            // TODO("3.6 Создав новый стиль через расширение к нему можно без проблем обращаться через объект темы вашего приложения.")
+            style = MaterialTheme.typography.newStyle
         )
 
         Text(
