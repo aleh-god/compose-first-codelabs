@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="padding">32.dp</dimen>
-    <dimen name="padding_small">8.dp</dimen>
-    <dimen name="padding_mini">4.dp</dimen>
-    <dimen name="fontSize32">32.sp</dimen>
+    <dimen name="padding">32dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_mini">4dp</dimen>
+    <dimen name="fontSize32">32sp</dimen>
 </resources>

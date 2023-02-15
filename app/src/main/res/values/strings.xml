@@ -19,21 +19,4 @@
         <item quantity="one">%1$d Jetpack</item>
         <item quantity="other">%1$d Jetpacks</item>
     </plurals>
-
-    <plurals name="test0">
-        <item quantity="one">Test passed</item>
-        <item quantity="other">Tests passed</item>
-    </plurals>
-    <plurals name="test1">
-        <item quantity="one">%d test passed</item>
-        <item quantity="other">%d tests passed</item>
-    </plurals>
-    <plurals name="test2">
-        <item quantity="one">%2$s: %1$d test passed</item>
-        <item quantity="other">%2$s: %1$d tests passed</item>
-    </plurals>
-    <plurals name="test3">
-        <item quantity="one">%3$s: %1$d test out of %2$d passed</item>
-        <item quantity="other">%3$s: %1$d tests out of %2$d passed</item>
-    </plurals>
 </resources>
