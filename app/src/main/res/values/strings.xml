@@ -5,7 +5,15 @@
 
     <string name="hello_template">"Hello %1$s!"</string>
     <string name="button_text_ok">OK</string>
+    <string name="button_text_play">OK</string>
+
     <string name="ui_notification_main_text">Notification is unavailable</string>
+    <string name="ui_accessibility_label_text">Click Text</string>
+    <string name="ui_accessibility_label_button">Click Button</string>
+    <string name="ui_accessibility_main_text">Clickable text</string>
+    <string name="ui_accessibility_cont_descr_button_play">Запустить эффект</string>
+    <string name="ui_accessibility_state_descr_radio_fasle">Элемент не выбран</string>
+    <string name="ui_accessibility_state_descr_radio_true">Элемент выбран</string>
 
     <plurals name="jetpack">
         <item quantity="one">%1$d Jetpack</item>
