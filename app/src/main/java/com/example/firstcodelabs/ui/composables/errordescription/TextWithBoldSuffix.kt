@@ -1,4 +1,4 @@
-package com.example.firstcodelabs.ui.composables
+package com.example.firstcodelabs.ui.composables.errordescription
 
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable

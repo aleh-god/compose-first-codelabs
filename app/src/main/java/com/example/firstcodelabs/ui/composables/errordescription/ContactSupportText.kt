@@ -1,4 +1,4 @@
-package com.example.firstcodelabs.ui.composables
+package com.example.firstcodelabs.ui.composables.errordescription
 
 import android.util.Log
 import androidx.compose.foundation.text.ClickableText
@@ -21,10 +21,11 @@ private const val ANNOTATION = "www.my-website.com/help"
 // так как предположили, что переиспользоваться он не будет.
 @OptIn(ExperimentalTextApi::class)
 @Composable
-private fun ContactSupportText(
+fun ContactSupportText(
     onContactClicked: (String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
+    val appendWithAnnotation = stringResource(R.string.ui_widgets_support_text_append_3)
     val annotatedString = buildAnnotatedString {
         append(stringResource(R.string.ui_widgets_support_text_append_1))
         append("\n")
@@ -38,7 +39,7 @@ private fun ContactSupportText(
             // TODO("8.3 Добавим аннотацию, которая будет применена к тексту внутри лямбды.")
             // Из параметров у нее tag, который мы будем использовать и строка в качестве аннотации.
             withAnnotation(tag = HELP_TAG, annotation = ANNOTATION) {
-                append(stringResource(R.string.ui_widgets_support_text_append_3))
+                append(appendWithAnnotation)
             }
         }
     }

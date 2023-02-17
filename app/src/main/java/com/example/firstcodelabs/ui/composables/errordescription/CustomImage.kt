@@ -1,4 +1,4 @@
-package com.example.firstcodelabs.ui.composables
+package com.example.firstcodelabs.ui.composables.errordescription
 
 import android.content.res.Configuration
 import androidx.compose.foundation.BorderStroke

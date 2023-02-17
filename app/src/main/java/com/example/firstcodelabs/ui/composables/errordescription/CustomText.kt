@@ -1,4 +1,4 @@
-package com.example.firstcodelabs.ui.composables
+package com.example.firstcodelabs.ui.composables.errordescription
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text

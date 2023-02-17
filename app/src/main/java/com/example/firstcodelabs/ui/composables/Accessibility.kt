@@ -45,7 +45,6 @@ fun Accessibility(
     val radioDescrTrue = stringResource(R.string.ui_accessibility_state_descr_radio_true)
     var radioState by remember { mutableStateOf(false) }
 
-
     Column(
         modifier = modifier
             .fillMaxWidth()
