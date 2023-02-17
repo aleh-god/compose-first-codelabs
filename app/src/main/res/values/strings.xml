@@ -11,9 +11,12 @@
     <string name="ui_accessibility_label_text">Click Text</string>
     <string name="ui_accessibility_label_button">Click Button</string>
     <string name="ui_accessibility_main_text">Clickable text</string>
-    <string name="ui_accessibility_cont_descr_button_play">Запустить эффект</string>
-    <string name="ui_accessibility_state_descr_radio_fasle">Элемент не выбран</string>
-    <string name="ui_accessibility_state_descr_radio_true">Элемент выбран</string>
+    <string name="ui_accessibility_cont_descr_button_play">Launch effect</string>
+    <string name="ui_accessibility_state_descr_radio_fasle">Element isn`t chosen</string>
+    <string name="ui_accessibility_state_descr_radio_true">Element is chosen</string>
+    <string name="ui_widgets_support_text_append_1">Seeing this message too often?</string>
+    <string name="ui_widgets_support_text_append_2">Contact </string>
+    <string name="ui_widgets_support_text_append_3">tech support</string>
 
     <plurals name="jetpack">
         <item quantity="one">%1$d Jetpack</item>
