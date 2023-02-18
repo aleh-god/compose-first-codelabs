@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.example.firstcodelabs.ui.screens.ErrorScreen
 import com.example.firstcodelabs.ui.screens.MainScreen
+import com.example.firstcodelabs.ui.screens.TaskListScreen
 import com.example.firstcodelabs.ui.screens.WidgetsScreen
 import com.example.firstcodelabs.ui.theme.FirstCodelabsTheme
 
@@ -18,7 +19,8 @@ class MainActivity : ComponentActivity() {
                 // TODO("0. ")
 //                MainScreen()
 //                WidgetsScreen()
-                ErrorScreen()
+//                ErrorScreen()
+                TaskListScreen()
             }
         }
     }

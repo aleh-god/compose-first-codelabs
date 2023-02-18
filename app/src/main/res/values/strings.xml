@@ -20,6 +20,10 @@
     <string name="ui_widgets_support_text_append_3">tech support</string>
     <string name="ui_error_description_subtitle">Error code:\ </string>
     <string name="ui_error_screen_title">Whoops, we couldn\'t load the data!</string>
+    <string name="ui_search_field_cont_descr_leading_icon">Leading icon</string>
+    <string name="ui_search_field_cont_descr_trailing_icon">Trailing icon</string>
+    <string name="ui_search_field_label">Label</string>
+    <string name="ui_search_field_placeholder">Placeholder</string>
 
     <plurals name="jetpack">
         <item quantity="one">%1$d Jetpack</item>
