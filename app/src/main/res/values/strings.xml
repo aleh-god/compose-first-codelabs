@@ -5,7 +5,8 @@
 
     <string name="hello_template">"Hello %1$s!"</string>
     <string name="button_text_ok">OK</string>
-    <string name="button_text_play">OK</string>
+    <string name="button_text_play">Play</string>
+    <string name="button_text_refresh">Refresh</string>
 
     <string name="ui_notification_main_text">Notification is unavailable</string>
     <string name="ui_accessibility_label_text">Click Text</string>
@@ -15,9 +16,10 @@
     <string name="ui_accessibility_state_descr_radio_fasle">Element isn`t chosen</string>
     <string name="ui_accessibility_state_descr_radio_true">Element is chosen</string>
     <string name="ui_widgets_support_text_append_1">Seeing this message too often?</string>
-    <string name="ui_widgets_support_text_append_2">\"Contact \"</string>
+    <string name="ui_widgets_support_text_append_2">Contact\ </string>
     <string name="ui_widgets_support_text_append_3">tech support</string>
-    <string name="ui_error_description_subtitle">\"Error code: \"</string>
+    <string name="ui_error_description_subtitle">Error code:\ </string>
+    <string name="ui_error_screen_title">Whoops, we couldn\'t load the data!</string>
 
     <plurals name="jetpack">
         <item quantity="one">%1$d Jetpack</item>
