@@ -24,6 +24,8 @@
     <string name="ui_search_field_cont_descr_trailing_icon">Trailing icon</string>
     <string name="ui_search_field_label">Label</string>
     <string name="ui_search_field_placeholder">Placeholder</string>
+    <string name="ui_card_cont_descr_done_icon">Done icon</string>
+    <string name="ui_task_list_screen_button_label_move_top">Move to first task</string>
 
     <plurals name="jetpack">
         <item quantity="one">%1$d Jetpack</item>

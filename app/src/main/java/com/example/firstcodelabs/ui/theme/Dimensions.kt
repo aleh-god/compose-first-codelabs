@@ -10,7 +10,14 @@ object Dimensions {
     val padding_main = 32.dp
     val padding_medium = 16.dp
     val padding_small = 8.dp
+    val padding_mini = 4.dp
+    val padding_micro = 1.dp
 
     val custom_padding_big_vertical_button = 24.dp
     val custom_padding_vertical_button = 20.dp
+
+    val rounded_small = 8.dp
+
+    val custom_size_big = 48.dp
+    val custom_space = 8.dp
 }

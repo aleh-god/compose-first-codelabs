@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         // Поэтому в compose есть специальное расширение setContent, которое вы можете вызвать в Activity.
         setContent {
             FirstCodelabsTheme {
-                // TODO("0. ")
+                // TODO("0.0 Лекция состоит из 4 частей. Расскоментируйте соотв экран для просмотра.")
 //                MainScreen()
 //                WidgetsScreen()
 //                ErrorScreen()
